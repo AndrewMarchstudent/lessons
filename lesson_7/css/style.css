@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+ 
+body{
+	font-family: "Lato";
+	color: #424551;
+}
+
+[class*="course__container"]{
+	max-width: 810px;
+	margin: 0 auto;
+}
+.blok{
+	padding: 30px 410px;
+	margin-bottom: 30px;
+	font-size: 20px;
+	font-weight: 400;
+	background: linear-gradient(180deg, #dbdce0 20%, #575861 80%);
+}
+.course__title{
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1E212C;
+	margin-bottom: 26px; 
+	text-shadow: 2px 4px 5px #424551;
+}
+.foto{
+	margin-bottom: 60px;
+   box-shadow: 6px 6px 4px #606577;
+	outline: 1px solid 
+}
+.course_main{
+	font-size: 20px;
+   line-height: 150%;
+	font-weight: 700;
+   color: #1e212c; 
+   margin-bottom: 24px;
+	text-shadow: 2px 3px 4px rgb(63, 62, 62)
+}	
+.course_enim{
+	line-height: 160%;
+	margin-bottom: 48px;
+}   
+.course_enim p{
+	margin-bottom: 22px;
+}   
+.course_lorem{
+	font-weight: 700;
+   font-size: 20px;
+   line-height: 150%;
+   color: #1E212C;
+	margin-bottom: 48px;
+	background: url("../img/icons/braces.png") 0 0px no-repeat;
+   padding-left: 58px;
+	text-shadow: 2px 3px 4px #424551;
+}  
+.course_enim ul{
+   margin-bottom: 24px;
+}
+.course_enim li{
+   margin-bottom: 4px;
+   padding-left: 32px;
+	background: url("../img/icons/check.png") 0 5px no-repeat;
+}  	 
+
+
+/*===========================================================*/  
+/*===========================================================*/
+
+.course_time{
+	background: gray  url(../img/003.jpg) 100px 0px no-repeat;
+	max-height: 1070px;
+	padding:  100px ;
+	font-family: "Lato";
+   font-weight: 700; 
+	color: #19191a;
+	border-radius: 25px;
+	border: 3px dotted;
+}
+.course_text{
+	font-weight: 900;
+	font-size: 25px;
+	padding-bottom: 10px;
+}		
+.time{
+   padding-bottom: 30px;
+   font-size: 20px;
+	max-width: 200px;
+   padding-left: 20px;
+	background-color:rgb(225, 73, 73) ;
+	border-radius: 15px;
+	outline: 2px dashed;
+} 	
+.mobil{
+	padding-bottom: 20px;
+   padding-left:70px;
+   font-size: 20px;
+	max-width: 200px;
+}
+.phones{
+  padding-left: 50px;
+  font-size: 20px;
+  background-color: rgba(198, 79, 79, 0.564);
+  border-radius: 15px;
+  max-width: 400px;  
+  border: 4px double;
+}   
+.lorem_ipsum{
+	padding-left: 100px;
+	max-width: 400px;
+	margin: 0 auto;
+	margin-top: 80px;
+	background-color: rgb(173, 223, 224);
+	max-height: 200px;
+	overflow: auto;
+	border-radius: 30px;
+	color: #051f7a;
+	border-left: 4px solid;
+}	  	 
+
+  
+  
+
+  	
+
+
+	
+   
+
+
