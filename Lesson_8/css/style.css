@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+ 
+body{
+	font-family: "Lato";
+	color: #424551;
+}
+.header{
+	background-color: #ffdad5; 
+	padding: 60px;
+}
+.header_text{
+	font-weight: 700;
+}   
+.header_content * {
+	display: inline-block;
+}	
+.header_container{
+	max-width: 1230px;
+	margin: 0 auto;
+}	
+[class*="course__container"]{
+	max-width: 1230px;
+	margin: 0 auto;
+}   
+.header_create{
+	margin-right: 60px;
+}   
+.header_create:hover{
+	opacity: 0;
+	transition: all 3s ease 0s;
+}	
+.text_list a:not(:last-child){
+	margin-right: 40px;
+}
+.text_list a:last-child{
+	margin-right: 200px;
+}
+.text_list a > span{
+	color: #FF3F3A;
+}
+.text_list a:hover{
+	color: rgb(26, 184, 26);
+}
+.header_login a:hover{
+	color: rgb(26, 184, 26);
+}
+.header_button a{
+	color: #FFFFFF;
+   display: inline-block;
+	padding: 17px 40px;
+	border-radius: 4px;
+	margin-right: 35px ;
+	background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+	box-shadow: 5px 5px 0px rgb(230, 10, 179);
+	transition: all 1s ease 0s;
+}	
+.header_button a:active{
+	color: blueviolet;
+}   
+.header_button a:hover{
+   margin-top: 3px;
+	box-shadow: 0 2px 0 rgb(230, 10, 179);   
+} 
+.header_login::before{
+	content:"";
+	display: inline-block;
+	background: url("../img/Vector.png")  0 0  no-repeat;
+	margin-right: 10px;
+	width: 18px;
+	height: 18px; 
+	margin-bottom: -2px;
+}	 	
+
+
+	
+
+
+	
+/*=========================================================================*/		
+		
+.course_fisher-about{
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1E212C;
+	margin-bottom: 26px;
+}
+.about_course{
+max-width: 600px;	
+	
+}
+.course_fisher{
+	margin-top: 136px;
+	margin-bottom: 40px;
+}
+.course_mattis{
+	color: #424551;
+	margin-bottom:60px;
+	line-height: 160%;
+}	
+.course_mattis:hover{
+	color: blueviolet;
+}
+.course_learn{
+	font-weight: 700;
+	font-size: 28px;
+	color: #1E212C;
+	margin-bottom: 36px;
+}
+.course_list{
+	margin-bottom: 100px;
+	color:  #424551;
+	line-height: 150%;
+}
+.course_list li:not(:last-child){
+	margin-bottom: 10px;
+} 	
+.course_list li::before{
+	background: url("../img/Vektor\ 01.png") 0 0px no-repeat;
+   content: "";
+   width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin-right: 10px;
+}	
+.course_list li:hover::before{
+	transition: all 1s ease 0s;
+	transform: rotate(-360deg);
+}
+.courses_text li:nth-child(1)::before {
+	content: "";
+	display: inline-block;
+	background: url("../img/star.png") 0 0 no-repeat;
+	width: 16px;
+	height: 16px;
+	margin-right: 9px;
+}
+.courses_text li:nth-child(2)::before {
+	content: "";
+	display: inline-block;
+	background: url("../img/Vektor02.png") 0 0 no-repeat;
+	width: 16px;
+	height: 16px;
+	margin-right: 9px;
+}
+.courses_text li:nth-child(3)::before {
+	content: "";
+	display: inline-block;
+	background: url("../img/Vektor03.png") 0 0 no-repeat;
+	width: 16px;
+	height: 16px;
+	margin-right: 9px;
+}
+.course_curator:active{
+	color: blueviolet;
+}
+.course_learn:active{
+	color: blueviolet;
+}		
+.course_senior:active{
+	color: blueviolet;
+}	
+.course_curator{
+   font-weight: 700;
+	line-height: 150%; 
+	text-transform: uppercase;
+	color: #1E212C;
+	margin-bottom: 26px;
+}
+.senior{
+	font-size: 20px;
+	line-height: 150%;
+	color: #787A80;
+	margin-bottom: 32px;
+}	
+.courses_text{	
+   color: #424551;
+   margin-bottom: 32px;
+	line-height: 160%;
+}
+.icons a:not(:last-child) {
+	margin-right: 24px;
+}
+.icons{
+	margin-bottom: 80px;
+}	
+.icons a:nth-child(1)::before{
+	content:"";
+	display: inline-block;
+	background: url("../img/Vektor04.png") 0 0 no-repeat;
+	height: 22px;
+	width: 12px; 
+}	
+.icons a:nth-child(2)::before {
+	content: "";
+	display: inline-block;
+	background: url("../img/Vektor05.png") 0 0 no-repeat;
+	height: 16px;
+	width: 24px;
+}
+.icons a:nth-child(3)::before {
+	content: "";
+	display: inline-block;
+	background: url("../img/Vektor06.png") 0 0 no-repeat;
+	height: 18px;
+	width: 24px;
+}
+.icons a:nth-child(4)::before {
+	content: "";
+	display: inline-block;
+	background: url("../img/Vektor07.png") 0 0 no-repeat;
+	height: 20px;
+	width: 20px;
+}
+.cody_fisher{
+	font-size: 70px;
+	font-weight: 700;
+	margin-bottom: 30px;
+}		
+.cody_fisher:hover{
+	color: red;
+	transition: all 3s ease 0s;
+}
+.foto_codi{
+	height: 600px;
+}
+.foto_codi{
+	transition: all 2s ease 0s;
+	opacity: 0;
+	visibility: hidden;
+}
+.about_course:hover .foto_codi{
+	opacity: 1;
+	visibility: visible;
+}
+.course_fisher-about:hover{
+	color:red;
+	transition: all 1s ease 0s;
+}
+.footer{
+	background-color: #ffdad5;
+	padding: 100px; 
+}	
+.ul_list li{
+	background: url("../img/Vektor\ 01.png") 0 8px no-repeat;
+	max-width: 900px;
+	line-height: 150%;
+	font-size: 20px;
+	padding-left: 25px;
+}	
+ul ul{
+	display: none;
+}
+ul li:hover ul{
+	display: block;
+	color: blueviolet;
+}	
+	
+
+
+
+	
+
+	
+
+	
+	
+	
+
+  
+
+
+		
+
+
+
+
+
+
+
+
+
+	
+	   
+
+	
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+	
+	
+
+	
+
+
+
+	
+
+
+
+	
+	
+
+	 
+  
+
+	
+	
+	
+   
+
+
+
+	
+
+   
+	
+	
+
+
+	
+	
+
+	
+
+	
+	
+	
+	 
+
+
+	
+	
+	
+
+	
+	
+	
+	
+	
