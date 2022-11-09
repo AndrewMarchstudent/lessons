@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body {
+	font-family: "Lato";
+	color: #2a345e;
+}
+
+.wrapper {
+	position: relative;
+   overflow: hidden;
+	min-height: 100%;
+}
+
+header {
+	background-color: rgb(78, 105, 182);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-weight: 900;
+}
+
+.sky {
+	background: linear-gradient(180deg, #97b2e9 20%, #8f97f1 80%);
+	width: 100%;
+	height: 500px;
+}
+
+.sky__clouds {
+	position: relative;
+}
+
+.sky__clouds1 {
+	width: 450px;
+	height: 70px;
+	background-color: rgb(218, 218, 226);
+	border-radius: 50%;
+	left: 220px;
+	top: 70px;
+}
+
+.sky__clouds2 {
+	width: 350px;
+	height: 50px;
+	background-color: rgb(207, 207, 240);
+	border-radius: 50%;
+	left: 400px;
+	bottom: 35px;
+}
+
+.sky__clouds3 {
+	width: 400px;
+	height: 55px;
+	background-color: rgba(226, 226, 248, 0.918);
+	border-radius: 50%;
+	left: 600px;
+	bottom: 50px;
+	box-shadow: 0px 0px 20px rgb(137, 137, 226);
+	z-index: 2;
+}
+
+.sky__clouds4 {
+	width: 350px;
+	height: 60px;
+	background-color: rgb(215, 215, 241);
+	border-radius: 50%;
+	left: 1100px;
+	bottom: 30px;
+}
+
+.sky__clouds5 {
+	width: 300px;
+	height: 45px;
+	background-color: rgba(207, 207, 247, 0.911);
+	border-radius: 50%;
+	left: 920px;
+	bottom: 50px;
+	box-shadow: 0px 0px 30px rgb(147, 147, 236);
+	z-index: 1;
+}
+
+.sky__clouds6 {
+	width: 400px;
+	height: 60px;
+	background-color: rgb(199, 199, 221);
+	border-radius: 50%;
+	left: 1200px;
+	bottom: 100px;
+
+}
+
+.sky__clouds--sun {
+	width: 150px;
+	height: 150px;
+	background-color: rgb(248, 243, 192);
+	border-radius: 50%;
+   box-shadow: 0px 0px 80px rgb(252, 252, 193);
+	top: 80px;
+	
+}	
+.sky__clouds--sun{
+	animation-name: translate,sky__clouds--sun;
+	animation-duration: 50s;
+	animation-iteration-count: 1;
+	animation-timing-function: 1;
+	 
+}		
+
+ @keyframes sky__clouds--sun{
+ 	0% {
+ 		transform: translate(0px,0px);
+ 	}
+   40%{
+		transform: translate(800px, -400px);
+	}
+	100%{
+		transform: translate(2100px, 200px);
+	}
+}
+
+ 	
+	
+		
+	
+ 	
+
+/*===========================================================*/
+
+.car {
+	background-color: rgb(52, 121, 52);
+	width: 100%;
+	height: 600px;
+	box-shadow: 0px 0px 40px white;
+	position: relative;
+	z-index: 1;
+	
+}
+
+.car__road {
+	position: relative;
+}
+.car__road--bmv{
+	right:  950px;
+	position: relative;
+	z-index: 2;
+	animation-name: translate,car__road--bmv;
+	animation-duration: 25s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease;
+}
+@keyframes car__road--bmv{
+	0% {
+		transform: translate(0px, 0px);
+	}
+   100% {
+ 	transform: translate(2400px, 0px);
+   }
+}
+	
+	
+	
+
+	
+	 
+
+	
+
+	
+.car__road--green {
+	width: 100%;
+	height: 200px;
+	background-color: #41454d;
+	top: 100px;
+	z-index: 0;
+	outline: 3px solid rgb(37, 37, 37);
+}
+
+.car__road--band {
+	width: 100%;
+	height: 10px;
+	background-color: #93979e;
+	top: 200px;
+	z-index: 1;
+}
+
+.car__road--wheel {
+	width: 100px;
+	height: 100px;
+	background-color: #17191d;
+	border-radius: 50%;
+	left: 770px;
+	bottom: 40px;
+	border-top: 4px solid #8e99ac;
+	outline: 2px solid #515258;
+	z-index: 5;
+}
+
+.car__road--wheel0 {
+	width: 100px;
+	height: 100px;
+	background-color: #17191d;
+	border-radius: 50%;
+	left: 460px;
+	bottom: 140px;
+	border-top: 4px solid #828ea3;
+	z-index: 5;
+	outline: 2px solid #515258;
+}
+
+.car__road--auto {
+	width: 470px;
+	height: 105px;
+	background-color: rgb(78, 157, 209);
+	border-radius: 20px;
+	bottom: 300px;
+	left: 430px;
+	z-index: 4;
+	outline: 2px solid #17191d;
+}
+
+.car__road--auto0 {
+	width: 280px;
+	height: 120px;
+	background-color: rgb(78, 157, 209);
+	bottom: 505px;
+	left: 470px;
+	outline: 2px solid #17191d;
+	border-radius: 18px;
+	z-index: 3;
+}
+
+.car__road--lid0 {
+	width: 60px;
+	height: 60px;
+	background-color: #959eaf;
+	border-radius: 50%;
+	bottom: 443px;
+	left: 479px;
+	z-index: 6;
+	outline: 2px dashed rgb(242, 240, 255);
+}
+
+.car__road--lid1 {
+	width: 60px;
+	height: 60px;
+	background-color: #959eaf;
+	border-radius: 50%;
+	bottom: 503px;
+	left: 790px;
+	z-index: 6;
+	outline: 2px dashed rgb(242, 240, 255);
+}
+.car__road--lid0{
+   animation-name: rotate,car__road--lid0;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+@keyframes car__road--lid0{
+	0% {
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+.car__road--lid1 {
+	animation-name: rotate,car__road--lid1;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes car__road--lid1{
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+.car__road--windows {
+	width: 110px;
+	height: 90px;
+	background-color: #bdc9dd;
+	bottom: 740px;
+	left: 630px;
+	z-index: 7;
+	border-radius: 8%;
+	border: 2px solid #17191d;
+}
+
+.car__road--windows0 {
+	width: 110px;
+	height: 90px;
+	background-color: #bdc9dd;
+	bottom: 830px;
+	left: 505px;
+	z-index: 7;
+	border-radius: 8%;
+	border: 2px solid #17191d;
+}
+
+.car__road--windows1 {
+	width: 30px;
+	height: 160px;
+	background-color: #bdc9dd;
+	bottom: 915px;
+	left: 455px;
+	border-radius: 50%;
+	outline: 2px solid #17191d;
+}
+
+.car__road--windows2 {
+	width: 35px;
+	height: 160px;
+	background-color: #bdc9dd;
+	bottom: 1078px;
+	left: 730px;
+	border-radius: 50%;
+	outline: 2px solid #17191d;
+}
+
+.car__road--ligts {
+	width: 30px;
+	height: 35px;
+	background-color: crimson;
+	bottom: 1130px;
+	left: 425px;
+	border-radius: 5px;
+	outline: 1px solid #17191d;
+	z-index: 8;
+}
+
+.car__road--ligts0 {
+	width: 30px;
+	height: 35px;
+	background-color: bisque;
+	bottom: 1160px;
+	left: 875px;
+	border-radius: 5px;
+	outline: 1px solid #17191d;
+	z-index: 8;
+}
+
+.car__road--bumper {
+	width: 35px;
+	height: 35px;
+	background-color: rgb(104, 102, 100);
+	bottom: 1150px;
+	left: 875px;
+	border-radius: 5px;
+	outline: 1px solid #17191d;
+	z-index: 8;
+}
+
+.car__road--bumper0 {
+	width: 35px;
+	height: 35px;
+	background-color: rgb(104, 102, 100);
+	bottom: 1187px;
+	left: 420px;
+	border-radius: 5px;
+	outline: 1px solid #17191d;
+	z-index: 8;
+}
+
+.car__road--door {
+	width: 3px;
+	height: 50px;
+	background-color: rgb(61, 59, 57);
+	bottom: 1280px;
+	left: 499px;
+	z-index: 8;
+}
+
+.car__road--door0 {
+	width: 3px;
+	height: 90px;
+	background-color: rgb(61, 59, 57);
+	bottom: 1330px;
+	left: 622px;
+	z-index: 8;
+}
+
+.car__road--door1 {
+	width: 3px;
+	height: 90px;
+	background-color: rgb(61, 59, 57);
+	bottom: 1420px;
+	left: 742px;
+	z-index: 8;
+}
