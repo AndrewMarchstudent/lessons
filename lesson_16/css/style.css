@@ -33,6 +33,7 @@ body{
 }
 .contacts__image img{
 	max-width: 100%;
+	flex: 0 0 35.3%;
 }	
 .contacts__form{
 	flex-grow: 1;
@@ -112,18 +113,19 @@ body{
 .form{}
 .form__textarea{
 	flex-grow: 1;
+	
 }
 .form__massage{
 	min-height: 128px;
 	gap: 25px;
 	resize: vertical;
+	padding: 13px;
+	padding-left: 16px;
 }
 .registration__button{
   display: flex;
   gap: 25px;
-}
-.checkbox__line{
-position: relative;
+  
 }
 .checkbox__input{
 	position: absolute;
@@ -152,26 +154,44 @@ position: relative;
 }
 .checkbox__text {
 	align-self: center;
-	line-height: 1.6;
-}	  
-.checkbox__link {
+	line-height: 160%;
+	flex: 1 0 315px;
+}	
+
+.checkbox{
+	align-self: center;
+	display: flex;
+	flex-wra: wrap;
+	
+}
+.checkbox__button{
+position: relative;
+display: flex;
+
+}
+
+.checkbox__button{
 	font-weight: 700;
 	font-size: 16px;
-	line-height: 1.25;
+	line-height: 3.2;
 	color: #fff;
 	padding: 0 117px;
 	background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
 	border-radius: 4px;
 	display: inline-flex;
 	flex: 0 0 340px;
-}		
+}
+	
+	
+		
+
+	
 
 		
 
 
 
 
-
 	
 
 
@@ -197,4 +217,7 @@ position: relative;
 	
 
 
+
+
+	
 
