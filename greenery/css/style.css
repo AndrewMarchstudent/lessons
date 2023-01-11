@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap');
+
+body{
+	font-family: "Dosis";
+}
+	
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+.wrapper>main {
+	flex-grow: 1;
+}
+[class*="__container"] {
+	max-width: 1115px;
+	margin: 0 auto;
+	padding: 0px 15px;
+	box-sizing: content-box;
+}
+.page{
+	flex: 1 1 auto;
+}
+._ibg{
+	position: relative;
+}
+._ibg img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+}
+.main-shop{
+	position: relative;
+}
+.main-shop__body{
+	padding: 198px 0px 400px 0px;
+	position: relative;
+	z-index: 2;
+	max-width: 577px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+  
+
+}
+.main-shop__body > *:not(:last-child){
+	margin: 0px 0px 20px 0px;
+}
+
+.main-shop__image {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+
+}
+.main-shop__sale {
+   font-weight: 800;
+	font-size: 90px;
+	color:  #F3B705;
+	letter-spacing: 0,045em;
+	line-height: 128%;
+	text-align: center;
+}	 
+	 
+.main-shop__title{
+	font-weight: 600;
+	font-size: 60px;
+   line-height: 96%;
+	color: #264A51;
+	letter-spacing: 0,045em;
+	text-align: center;
+}
+.main-shop__text {
+	font-family: "Mukta";
+	font-weight: 400;
+	font-size: 15px;
+	color: #224f66;
+	line-height: 172%;
+	letter-spacing: 0,045em;
+	max-width: 389px;
+	text-align: center; 
+}  
+@media (max-width: 1280px) {
+	.main-shop__image img{
+		object-position: right;
+	}
+}
+@media (max-width: 992px) {
+	.main-shop__image {
+		opacity: 0.5;
+	} 
+}
+/*=======================================*/   
+.aside-block{
+	position: relative;
+	
+}
+.living-room__container{
+	position: relative;
+	z-index: 2;
+}
+.aside-block {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 60px;
+	
+}		
+.aside-block:nth-child(even) {
+	display: flex;
+	flex-direction: row-reverse; 
+}
+	
+	
+	
+
+.aside-block__photo{
+	max-width: 538%;
+	padding: 110px 0px;
+}
+.aside-block__pic{
+	max-width: 100%;
+}
+.aside-block__section{
+	max-width: 577px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.aside-block__section >*:not(:last-child) {
+	margin: 0px 0px 20px 0px;
+}
+.aside-block__title{
+   font-weight: 600;
+	font-size: 60px;
+	line-height: 96%;
+	color: #264A51;
+	letter-spacing: 0,045em;
+	text-align: center;
+}
+.aside-block__text{
+   font-family: "Mukta";
+	font-weight: 400;
+	font-size: 15px;
+	color: #335E74;
+	line-height: 172%;
+	letter-spacing: 0, 045em;
+	max-width: 475px;
+	text-align: center;
+}
+@media (max-width: 880px){
+	.aside-block{
+	
+	
+		
+		
+
+	}
+}
+.aside-block__table{
+   max-width: 538%;
+}	
+.aside-block__dining{
+   max-width: 100%;
+}
+.aside-block__modern{
+   max-width: 538%;
+}
+.aside-block__bed{
+  max-width: 100%;
+}
+.aside-block__modern{
+	padding: 110px 0px;	
+}
+.aside-block__populer{
+   max-width: 538%;
+}
+.aside-block__kitchen{
+   max-width: 100%;
+}
+	
+
+
+
+ 
