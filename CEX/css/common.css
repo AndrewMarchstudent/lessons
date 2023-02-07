@@ -1,0 +1,51 @@
+.button {
+	background: #269E96;
+	border-radius: 6px;
+	letter-spacing: 0.5px;
+	font-weight: 700;
+	line-height: 1.25;
+	display: inline-block;
+	color: #fff;
+	padding: 12px 60px;
+	position: relative;
+}
+
+.button span {
+	position: relative;
+	z-index: 2;
+}
+
+.button:hover {
+   border-radius: 6px;
+	transition: all 0.5s ease 0s;
+	background: #03776d;
+}	
+button:hover::before {
+	opacity: 1;
+}
+
+.button--border {
+	background: transparent;
+	border-radius: 6px;
+	border: 1.5px solid #269E96;
+	color: #269E96;
+	padding: 15px 20px;
+	position: relative;
+	transition: all 1s ease 0s;
+}
+
+.button--border:hover {
+	color: #fff;
+	border: 1.5px solid #269E96;
+	background-color: #269E96;
+}
+
+
+	
+	
+	
+	
+	
+	
+
+
